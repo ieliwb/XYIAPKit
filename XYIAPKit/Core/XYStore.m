@@ -491,7 +491,7 @@ typedef void (^XYStoreSuccessBlock)(void);
 }
 
 - (BOOL)paymentQueue:(SKPaymentQueue *)queue shouldAddStorePayment:(SKPayment *)payment forProduct:(SKProduct *)product {
-    return YES;
+    return NO;
 }
 
 #pragma mark Download State
